@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd490a80fd3e45858519dba8bec3dc3e, type: 3}
+  m_Name: Orc
+  m_EditorClassIdentifier: 
+  spawnType: 0
+  spawnPrefab: {fileID: 5163019983425591291, guid: e558b07405dc0456c8d8217f7ebd969a,
+    type: 3}
+  enemyPrefab: {fileID: 5555878459496032365, guid: 1f1757de85b3b456fbf452ab45b084d4,
+    type: 3}
+  previewPrefab: {fileID: 5449547355914435630, guid: 8482ddf311f7f4814973b277234e151d,
+    type: 3}
+  cost: 2
+  cardName: Orc
+  attackType: 0
+  targetType: 1
+  attackRatio: 1
+  damagePerAttack: 2
+  attackRange: 4
+  hitPoints: 10
+  attackClip: {fileID: 0}
+  dieClip: {fileID: 0}
+  speed: 5
+  lifeTime: 0
+  damagePerSecond: 0

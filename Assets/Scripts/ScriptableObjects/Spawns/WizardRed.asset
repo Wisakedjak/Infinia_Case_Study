@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd490a80fd3e45858519dba8bec3dc3e, type: 3}
+  m_Name: WizardRed
+  m_EditorClassIdentifier: 
+  spawnType: 0
+  spawnPrefab: {fileID: 5563832303967394525, guid: c8cae08d5adc7490e99710e01327df5e,
+    type: 3}
+  enemyPrefab: {fileID: 2024494097029966865, guid: d08822003b6044900bd61521f756fe4a,
+    type: 3}
+  previewPrefab: {fileID: 8750313284062998608, guid: 33c1c7c580a2c40aa872e5b89668d447,
+    type: 3}
+  cost: 5
+  cardName: Wizard Red
+  attackType: 1
+  targetType: 1
+  attackRatio: 1
+  damagePerAttack: 3
+  attackRange: 16
+  hitPoints: 8
+  attackClip: {fileID: 0}
+  dieClip: {fileID: 0}
+  speed: 5
+  lifeTime: 0
+  damagePerSecond: 0

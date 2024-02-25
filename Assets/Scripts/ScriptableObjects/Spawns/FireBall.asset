@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd490a80fd3e45858519dba8bec3dc3e, type: 3}
+  m_Name: FireBall
+  m_EditorClassIdentifier: 
+  spawnType: 1
+  spawnPrefab: {fileID: 6343112322291325381, guid: d09ec9f1e56884f6ea6df1b83c6b67e6,
+    type: 3}
+  enemyPrefab: {fileID: 0}
+  previewPrefab: {fileID: 5381466820568954492, guid: 8db6fcb3104d2438ebd7b66bbf96fa5a,
+    type: 3}
+  cost: 5
+  cardName: Fire Ball
+  attackType: 0
+  targetType: 1
+  attackRatio: 1
+  damagePerAttack: 10
+  attackRange: 1
+  hitPoints: 10
+  attackClip: {fileID: 0}
+  dieClip: {fileID: 0}
+  speed: 5
+  lifeTime: 5
+  damagePerSecond: 1

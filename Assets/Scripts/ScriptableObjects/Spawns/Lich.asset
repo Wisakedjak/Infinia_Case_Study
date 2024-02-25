@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd490a80fd3e45858519dba8bec3dc3e, type: 3}
+  m_Name: Lich
+  m_EditorClassIdentifier: 
+  spawnType: 0
+  spawnPrefab: {fileID: 4299018891727821850, guid: e0470c09cace1418a8b6a02359e7b7a9,
+    type: 3}
+  enemyPrefab: {fileID: 5445618900227506903, guid: 4eaab2a870f6e4fcaa865286b5922f7d,
+    type: 3}
+  previewPrefab: {fileID: 8771378054679178752, guid: 6ea279adbed86417895269db1c00c772,
+    type: 3}
+  cost: 3
+  cardName: Lich
+  attackType: 1
+  targetType: 1
+  attackRatio: 0.8
+  damagePerAttack: 2
+  attackRange: 16
+  hitPoints: 8
+  attackClip: {fileID: 0}
+  dieClip: {fileID: 0}
+  speed: 5
+  lifeTime: 0
+  damagePerSecond: 0

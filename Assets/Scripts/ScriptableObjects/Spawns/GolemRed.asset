@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd490a80fd3e45858519dba8bec3dc3e, type: 3}
+  m_Name: GolemRed
+  m_EditorClassIdentifier: 
+  spawnType: 0
+  spawnPrefab: {fileID: 1257294853785649015, guid: f10846a6829c44dc5963f2db4a3db649,
+    type: 3}
+  enemyPrefab: {fileID: 1232089846989795419, guid: d93da80d17c45412b99c0ad6fe3e49ba,
+    type: 3}
+  previewPrefab: {fileID: 3996834724579986807, guid: d14a8bea638204f11ade807ebbaf932c,
+    type: 3}
+  cost: 5
+  cardName: Golem Red
+  attackType: 0
+  targetType: 0
+  attackRatio: 0.75
+  damagePerAttack: 10
+  attackRange: 4
+  hitPoints: 50
+  attackClip: {fileID: 0}
+  dieClip: {fileID: 0}
+  speed: 4
+  lifeTime: 0
+  damagePerSecond: 0

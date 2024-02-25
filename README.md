@@ -1,1 +1,1 @@
-# Infinia_Case_Study
+# InfiniaCaseStudy
