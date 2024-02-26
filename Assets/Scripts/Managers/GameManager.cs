@@ -96,6 +96,7 @@ namespace ClashRoyaleClone.Managers
                 _uiManager.ChangeCardsUsableStateWithMana();
                 _nextCard=_uiManager.CreateCard(null);
                 StartGainMana();
+                _gameOver = false;
                 _aiManager.MakeMove();
             }
         }
@@ -161,6 +162,7 @@ namespace ClashRoyaleClone.Managers
 						castle.OnDealDamage += OnSpawnDealtDamage;
 						castle.OnProjectileFired += OnProjectileFired;
                         castle.healthBar.SetHpBar(spawnData.hitPoints);
+                        castle.healthBar.gameObject.SetActive(true);
                         AddSpawnToList(castle);
                         castle.OnDie += OnCastleDead;
                         break;
